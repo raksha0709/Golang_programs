@@ -16,7 +16,7 @@ func main() {
 	fmt.Printf("The multiplicands are:%d and %d\n", mul1, mul2)
 }
 func find_largest_palindrome_product(min, max int) (int, int, int) {
-	lpp := -1
+	lpp := 0
 	var mul1, mul2 int
 	for i := max; i >= min; i-- {
 		for j := i; j >= min; j-- {
